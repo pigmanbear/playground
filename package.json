@@ -1,0 +1,84 @@
+{
+    "name": "daggys",
+    "version": "1.0.0",
+    "description": "",
+    "main": "daggy.js",
+    "scripts": {
+        "start": "babel-node --presets env daggy.js",
+        "test": "ava"
+    },
+    "ava": {
+        "require": [
+            "babel-register"
+        ]
+    },
+    "babel": {
+        "presets": [
+            "@ava/stage-4"
+        ]
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@most/create": "^2.0.1",
+        "add": "^2.0.6",
+        "ava": "^0.22.0",
+        "chai": "^4.1.1",
+        "chance": "^1.0.10",
+        "cookie-parser": "^1.4.3",
+        "creed": "^1.2.1",
+        "cypher-stream": "^1.0.1",
+        "daggy": "^1.1.0",
+        "express": "^4.15.3",
+        "express-session": "^1.15.4",
+        "fantasy-promises": "^0.1.0",
+        "fluture": "^7.1.1",
+        "fs": "^0.0.1-security",
+        "highland": "^2.11.1",
+        "http": "^0.0.0",
+        "immutable": "^3.8.1",
+        "immutable-ext": "^1.1.2",
+        "is-ip": "^2.0.0",
+        "js-csp": "^1.0.1",
+        "most": "^1.5.0",
+        "most-node-streams": "^1.0.0",
+        "most-proxy": "^3.3.0",
+        "most-subject": "^5.3.0",
+        "neo4j-driver": "^1.4.0",
+        "neopreen": "^1.0.0",
+        "node-fetch": "^1.7.2",
+        "primus": "^7.0.2",
+        "pull-defer": "^0.2.2",
+        "pull-stdio": "^0.1.0",
+        "pull-stream": "^3.6.0",
+        "qjobs": "^1.1.5",
+        "ramda": "^0.24.1",
+        "request-id": "^0.11.1",
+        "rxjs": "^5.4.3",
+        "sanctuary": "^0.13.2",
+        "scramjet": "^3.1.0",
+        "stream": "^0.0.2",
+        "stream-to-pull-stream": "^1.7.2",
+        "streaming-json-stringify": "^3.1.0",
+        "tcomb": "^3.2.22",
+        "tcomb-validation": "^3.4.0",
+        "threads": "^0.8.1",
+        "util": "^0.10.3",
+        "utils": "^0.3.1",
+        "ws": "^3.0.0",
+        "yarn": "^0.27.5"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-eslint": "^7.2.3",
+        "babel-preset-env": "^1.6.0",
+        "babel-preset-es2017": "^6.24.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "eslint": "^4.2.0",
+        "eslint-plugin-flowtype": "^2.35.0",
+        "eslint-plugin-fp": "^2.3.0",
+        "eslint-plugin-import": "^2.7.0",
+        "eslint-plugin-node": "^5.1.1",
+        "i": "^0.3.5"
+    }
+}
